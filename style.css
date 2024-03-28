@@ -5,19 +5,18 @@ background : red url(" no-repeat fixed center / cover ; */
 /* لم تعمل معي ال background-Shorthand إلا بهذه الطريقة*/
 
 .hero {
-  background: url("./images/The-Cosmic-Torii-by-Ellysiumn-DTP-3bjc23jlmusoxii0cwbocg.jpg")
+  background: url("./The-Cosmic-Torii-by-Ellysiumn-DTP-3bjc23jlmusoxii0cwbocg.jpg")
     center / cover no-repeat fixed;
   height: 500px;
 }
 
 .hero-2 {
-  background: url("./images/pexels-photo-1114703.jpeg") left / contain repeat
-    scroll;
+  background: url("./pexels-photo-1114703.jpeg") left / contain repeat scroll;
   height: 400px;
 }
 
 .hero-3 {
-  background: url("./images/3.jpg") right / auto repeat-x fixed;
+  background: url("./3.jpg") right / auto repeat-x fixed;
   height: 500px;
 }
 
