@@ -1,0 +1,60 @@
+/* Background Task */
+/* Short Hand for background 
+background : red url(" no-repeat fixed center / cover ; */
+
+/* لم تعمل معي ال background-Shorthand إلا بهذه الطريقة*/
+
+.hero {
+  background: url("./images/The-Cosmic-Torii-by-Ellysiumn-DTP-3bjc23jlmusoxii0cwbocg.jpg")
+    center / cover no-repeat fixed;
+  height: 500px;
+}
+
+.hero-2 {
+  background: url("./images/pexels-photo-1114703.jpeg") left / contain repeat
+    scroll;
+  height: 400px;
+}
+
+.hero-3 {
+  background: url("./images/3.jpg") right / auto repeat-x fixed;
+  height: 500px;
+}
+
+/* Task HSLA COLOR */
+
+/* HSLa Color */
+
+/* color: hsla(hue, saturation, lightness, alpha); */
+
+/* hue = >      هي رمز للون ذاته واي تغيير فيها سوف يغير اللون 
+   saturation = > يرمز الى قيمة تشبع اللون / وزيادة قيمة ال Saturation ستزيد من تشبع اللون 
+   lightness  = > يرمز  إلى كمية الإضاءة والسطوع في اللون
+   يرمز إلى كمية الإضاءة والسطوع في اللون، وإ>ا تم تغيير قيمة إضاءة اللون وفقاً لدائرة اللألوان، عندما تكون قيمة Lightiing صفراً 0% فان اللون يكون أسود تماماً، وعندما تكون القيمة 100% يكون اللون أبيض تماماً.
+alpha = > ترمز الى الشفافية واي تغيير فيها يودي الى تغيير الشفافية 
+مثلا 0% يودي الى يكون العنصر مختفيا ..
+ايضا 0.5 = %50 /
+*/
+/* RGBA Color */
+.main h1 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+section h1 {
+  color: hsl(235, 77%, 42%, 40%);
+}
+
+/* Color Name */
+.hero h2 {
+  color: goldenrod;
+}
+
+/* Hexadecimal Color */
+.hero-2 h3 {
+  color: #daa520;
+}
+
+/* RGB Color */
+.hero-3 h3 {
+  color: rgb(50, 20, 70);
+}
